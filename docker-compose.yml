@@ -48,7 +48,7 @@ services:
     environment:
       - VITE_API_URL=http://localhost:5000/api
       - VITE_SITE_NAME=${VITE_SITE_NAME:-EKart}
-      - VITE_CREATOR_NAME=${VITE_CREATOR_NAME:-Vinamra Prakash}
+      - VITE_CREATOR_NAME=${VITE_CREATOR_NAME:-Ritu Anand}
     volumes:
       - ./frontend/src:/app/src
       - ./frontend/index.html:/app/index.html
