@@ -274,7 +274,7 @@ All defaults live in `docker-compose.yml` (via `${VAR:-default}` syntax) and are
 | `CORS_ORIGIN` | backend | `http://localhost:5174` | Allowed origin for the Express `cors()` middleware |
 | `VITE_API_URL` | frontend | `http://localhost:5000/api` | Where the frontend's axios client points |
 | `VITE_SITE_NAME` | frontend | `EKart` | Site name shown in the navbar, footer, and `<title>` (via `%VITE_SITE_NAME%` in `index.html`) |
-| `VITE_CREATOR_NAME` | frontend | `Vinamra Prakash` | Name shown in the footer's "Built with ♥ by ..." line |
+| `VITE_CREATOR_NAME` | frontend | `Ritu Anand` | Name shown in the footer's "Built with ♥ by ..." line |
 | `MONGO_EXPRESS_USERNAME` / `MONGO_EXPRESS_PASSWORD` | mongo-express | `admin` / `admin123` | Basic-auth login for the DB viewer UI |
 
 **Important Vite caveat**: `VITE_*` vars are read at dev-server-start / build time, not true
